@@ -1,0 +1,124 @@
+name: Rifts
+main: com.lonelydime.Rifts.Rifts
+version: 1.08
+website: https://github.com/lonelydime
+author: lonelydime
+description: >
+             MMO System.
+
+commands:
+  joinrifts:
+    description: Allows players to join the rifts game.
+    usage: |
+           /<command> [light/dark] [class name]
+           Example: /<command> light priest
+  level:
+    description: Prints out your level
+    usage: |
+           /<command>
+  class:
+    description: Prints out a player's class
+    usage: |
+           /<command> [player name]
+           Example: /<command> lonelydime
+  party:
+    description: Prints out your party list or adds player to party.
+    usage: |
+           /<command> [player name]
+           Example: /<command> lonelydime - adds lonelydime to your party.
+  leaveparty:
+    description: Leaves your current party.
+    usage: |
+           /<command>
+  disbandparty:
+    description: Disbands the party if you're the party leader.
+    usage: |
+           /<command>
+           Example: /<command>
+  spawnblock:
+    description: Allows you to check spawns remaining, if you're bound and leave the bind block.
+    usage: |
+           /<command> [uses, bound, leave]
+           Example: /<command> leave - Leaves your current bind point.
+           Example: /<command> uses - Checks spawns left at bind point.
+  exp:
+    description: Shows/toggles you your current experience
+    usage: |
+           /<command>
+           Example: /<command> false - Turns experience notification off.
+           Example: /<command> true - Turns experience notification on.
+  savechars:
+    description: Saves all current players by force.
+    usage: |
+           /<command>
+  stats:
+    description: Shows your free stats or allows you to add to them.
+    usage: |
+           /<command> add # [str/def/spr/int/hp/mp]
+           Example: /<command> - shows your free stats.
+           Example: /<command> add 3 str - Adds 3 to your Stength stat.
+  skill:
+    description: Allows you access your skills.
+    usage: |
+           /<command> [skill name/off]
+  skills:
+    description: Shows the available skills to get with the skill points you have.
+    usage: |
+           /<command>
+  skilllist:
+    description: Shows the skills you have.
+    usage: |
+           /<command> 
+  status:
+    description: Shows current status.
+    usage: |
+           /<command>
+  setclass:
+    description: Changes a player's class.
+    usage: |
+           /<command> [player name] [class name]
+           Example: /<command> lonelydime defender
+  fullheal:
+    description: Gives you full health and mana
+    usage: |
+           /<command>
+  setlevel:
+    description: Changes a player's level.
+    usage: |
+           /<command> [player name] [level]
+           Example: /<command> lonelydime 11
+  setstats:
+    description: Changes a player's available stats.
+    usage: |
+           /<command> [player name] [stats number]
+           Example: /<command> lonelydime 11
+  setskills:
+    description: Changes a player's available skill points.
+    usage: |
+           /<command> [player name] [skill number]
+           Example: /<command> lonelydime 11
+  toworld:
+    description: Teleports you to the spawn point of another world.
+    usage: |
+           /<command> [world name]
+           Example: /<command> darkworld
+  createrift:
+    description: Creates a rift in the world you are in
+    usage: |
+           /<command>
+  hide:
+    description: Hides experience or missed hit notifications.
+    usage: |
+           /<command>
+  show:
+    description: Shows experience or missed hit notifications.
+    usage: |
+           /<command>
+  resetcharacter:
+    description: Resets your character and removes you from the rifts world.
+    usage: |
+           /<command>
+  statshelp:
+    description: Explains stats.
+    usage: |
+           /<command>
